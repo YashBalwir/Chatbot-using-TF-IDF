@@ -91,4 +91,4 @@ def get_bot_response():
     return str(talk(userText)[0])
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0")
