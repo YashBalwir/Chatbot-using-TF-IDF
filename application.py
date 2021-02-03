@@ -90,6 +90,5 @@ def get_bot_response():
     userText = request.args.get('msg')
     return str(talk(userText)[0])
 
-
 if __name__ == "__main__":
     app.run()
