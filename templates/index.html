@@ -52,15 +52,13 @@
         <div class="col-sm-6 offset-sm-3">
             <div id="chatbox" class="border" style=" overflow: auto; background-color: rgba(255, 255, 255, .5);  
             backdrop-filter: blur(5px); padding: 20px; height: 500px; border-radius: 15px; border-width: 4px; border: none !important;">
-            <p class="botText"><span>Hi! I'm Chatterbot</span></p>
+            <p class="botText"><span>Hi! I'm Lina, how can i help you?</span></p>
             </div>
             <br>
-            <div id="userInput">
-                <div class="input-group">
-                    <span class="input-group-btn" style="width:80%;">
-                        <input id="textInput" class="form-control" type="text" name="msg" placeholder="Type Your Message Here" style="background: white; border-radius: 20px; margin-left: 5px;">    
-                    </span>
-                    <input id="buttonInput"  class="btn" style="background-color:rgb(106, 0, 177); color: white; padding-left: 23px; padding-right: 23px; margin-left:20px; border-radius: 20px;" type="submit" value="Send">
+            <div id="userInput" class="input-group mb-3" >
+                <input id="textInput" class="form-control" type="text" name="msg" placeholder="Type Your Message Here..." style="background: white; border-radius: 20px;  margin-right:15px;">
+                <div class="input-group-prepend">      
+                    <button id="buttonInput"  class="btn form-control" style="background-color:rgb(106, 0, 177); color: white; border-radius: 20px; border-color: white;" type="submit"><img src="static/send.png" style="height:25px;width:25px; margin-left: 10px; margin-right: 10px; margin-bottom: 12px;"></button>
                 </div>
             </div>
         </div>
